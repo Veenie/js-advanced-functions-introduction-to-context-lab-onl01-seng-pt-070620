@@ -81,7 +81,17 @@ let allWagesFor = function(employee){
     return payable
 }
 
+<<<<<<< HEAD
 function findEmployeeByFirstName (srcArray, firstName) {
+=======
+let createEmployeeRecords = function(src) {
+  return src.map(function(row){
+    return createEmployeeRecord(row)
+  })
+}
+
+let findEmployeebyFirstName = function(srcArray, firstName) {
+>>>>>>> 472b708e7e9761a09f177cd9270c53149998787f
   return srcArray.find(function(rec){
     return rec.firstName === firstName
   })
